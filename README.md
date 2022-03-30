@@ -17,7 +17,7 @@ and can even restore them.
 
 ## Live Demo is avaible here
 
-[Live Demo Link](https://anicetfantomas.github.io/Awesome_Books/)
+[Live Demo Link](https://anicetfantomas.github.io/To_do_list/)
 
 
 ## Getting Started
@@ -26,7 +26,7 @@ and can even restore them.
 To get a local copy up and running follow these simple example steps.
 
 git clone 
-https://github.com/AnicetFantomas/Awesome_Books.git
+https://github.com/AnicetFantomas/To_do_list.git
 
 Run the index.html on a live server.
 ```
@@ -42,7 +42,7 @@ npm init
 
 ### Deployment
 
-https://anicetfantomas.github.io/Awesome_Books/
+https://anicetfantomas.github.io/To_do_list/
 
 ## Authors
 
@@ -52,12 +52,6 @@ https://anicetfantomas.github.io/Awesome_Books/
 
 - LinkedIn: [Anicet Murhula](https://www.linkedin.com/in/anicet-murhula-13a1b0220/)
 
-
-👤 **Albert Mensah-Ansah**
-
-- GitHub: [@sabetech](https://github.com/sabetech)
-- Twitter: [@al_kfx](https://twitter.com/al_kfx)
-- LinkedIn: [Albert Mensah-Ansah](https://linkedin.com/in/albertkma)
 
 ## 🤝 Contributing
 
