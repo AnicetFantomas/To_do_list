@@ -33,6 +33,7 @@ body {
   height: 4%;
   align-self: center;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 h1 {
