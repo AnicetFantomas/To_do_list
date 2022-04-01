@@ -1,11 +1,12 @@
 # To_do_list
 
 > In this project we created a simple application wich will allow users to add their daily tasks 
-and can even restore them.
+and can even restore them. They can remove a specific task by clicking on the right icon of the task or remove 
+all completed tasks by clicking on the clear-all-completed button at the bottom of the apllication.
 
 ## How it looks like :
 
-![todolist](https://user-images.githubusercontent.com/94958024/160847900-0231404b-4d25-4b80-9c5b-ee60c2f15e5a.png)
+![Todolist2](https://user-images.githubusercontent.com/94958024/161342026-0f2728c0-46b4-4fc1-a51c-b9f7612e6a81.png)
 
 
 ## Built With
