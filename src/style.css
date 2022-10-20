@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(54, 34, 34, 0.945);
+  padding-bottom: 50%;
+}
+
 body {
   display: flex;
   width: 100%;
