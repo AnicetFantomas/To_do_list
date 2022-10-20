@@ -6,7 +6,7 @@ all completed tasks by clicking on the clear-all-completed button at the bottom 
 
 ## How it looks like :
 
-![Todolist2](https://user-images.githubusercontent.com/94958024/161342026-0f2728c0-46b4-4fc1-a51c-b9f7612e6a81.png)
+![mobile (3)](https://user-images.githubusercontent.com/94958024/196883203-bbc30bf1-c8b5-40fd-bd16-d0400e4a5667.png)
 
 
 ## Built With
@@ -40,10 +40,6 @@ npm install
 
 npm init
 ```
-
-### Deployment
-
-https://anicetfantomas.github.io/To_do_list/
 
 ## Authors
 
