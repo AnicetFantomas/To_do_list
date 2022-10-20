@@ -18,7 +18,7 @@ all completed tasks by clicking on the clear-all-completed button at the bottom 
 
 ## Live Demo is avaible here
 
-[Live Demo Link](https://anicetfantomas.github.io/To_do_list/)
+[Live Demo Link](https://venerable-jalebi-2b3ec6.netlify.app/)
 
 
 ## Getting Started
