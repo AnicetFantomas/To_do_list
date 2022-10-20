@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d614fc8c85.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <title>Anicet's to do list</title>
 </head>
 
@@ -12,12 +13,14 @@
     <main>
         <div class="wrapper">
             <div class="head-list">
-                <h1>To do list</h1><img src="https://icon-library.com/images/reset-icon-png/reset-icon-png-2.jpg" alt="">
+                <h1>To do list</h1> <div class="head-icon"><ion-icon name="calendar"></ion-icon></div> 
             </div>
     
             <input type="text" id="add-task" class="input-field" placeholder="press 'Enter' to add a new task">
-            <ul class="tasks-list"></ul>
-            <button class="clear-all-btn">Clear all completed</button>
+            <div class="list-container">
+                <ul class="tasks-list"></ul>
+                <button class="clear-all-btn">Clear all completed</button>
+            </div>
         </div>
     </main>
     <script src="index.js"></script>

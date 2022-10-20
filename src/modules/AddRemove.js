@@ -22,7 +22,7 @@ class AddRemove {
       for (let i = 0; i < this.tasks.length; i += 1) {
         const taskItem = myTasksList.appendChild(document.createElement('li'));
         taskItem.classList.add('a-task');
-        TaskHtml = `<input type="checkbox" id = "${this.tasks[i].completed} " name="task" id="my-task">
+        TaskHtml = `<input type="checkbox" class="checkbox" id = "${this.tasks[i].completed} " name="task" id="my-task">
         <input type="text" id = ${i} class="li-description" value = "${this.tasks[i].description}" required> <i id = ${i} class="fa fa-trash remove-btn" aria-hidden="true"></i>`;
         taskItem.innerHTML = TaskHtml;
 

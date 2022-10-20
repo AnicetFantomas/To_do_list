@@ -1,7 +1,10 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Inter+Tight&family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Abyssinica SIL', serif;
 }
 
 main {
@@ -10,6 +13,10 @@ main {
   justify-content: center;
   background-color: rgba(54, 34, 34, 0.945);
   padding-bottom: 50%;
+}
+
+.li-description {
+  color: aqua;
 }
 
 body {
@@ -21,7 +28,6 @@ body {
 }
 
 .wrapper {
-  background-color: rgb(179, 174, 174);
   width: 50%;
   height: auto;
   align-self: center;
@@ -29,30 +35,33 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 6px solid rgb(59, 54, 54);
 }
 
 .head-list {
   display: flex;
-}
-
-.head-list img {
-  width: 4%;
-  height: 4%;
-  align-self: center;
-  margin-right: 10px;
-  cursor: pointer;
+  width: 100%;
 }
 
 h1 {
   flex-grow: 1;
-  border-bottom: 1px solid rgb(145, 116, 116);
   padding: 10px;
+  color: aqua;
+}
+
+.head-icon {
+  color: aqua;
+  font-size: 30px;
+  align-self: center;
+  cursor: pointer;
 }
 
 #add-task {
   width: 100%;
   padding: 10px;
+  background-color: #000;
+  border-radius: 50px;
+  border: none;
+  color: aqua;
 }
 
 #add-task:hover {
@@ -60,7 +69,7 @@ h1 {
 }
 
 ::placeholder {
-  color: black;
+  color: rgb(156, 153, 153);
   font-size: 18px;
 }
 
@@ -71,6 +80,8 @@ h1 {
   list-style: none;
   width: 100%;
   padding: 10px;
+  justify-content: center;
+
 }
 
 .tasks-list li {
@@ -109,4 +120,20 @@ button {
   cursor: pointer;
   align-self: flex-end;
   margin: 2% 1% 1% 2%;
+}
+
+.clear-all-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.list-container {
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 20px;
 }
