@@ -34,9 +34,9 @@ Run the index.html on a live server.
 ## To run it go to your command line and
 
 ```
-npm start
-
 npm install 
+
+npm start
 
 npm init
 ```
